@@ -55,48 +55,12 @@ form .display input{
     color: #33ffd8;
 }
  
-
-
- @media (max-width: 267px){
-    .cal{
-        background-color: rgb(63, 61, 61);
-        padding: 5px;
-        border-radius: 10px;
-    }
-    .cal form input{
-        border: 0;
-        outline: 0;
-        width: 1px;
-        height: 1px;
-        border-radius: 10px;
-        box-shadow: -8px -8px 15px rgba(225, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
-        background: transparent;
-        font-size: 2px;
-        color: #fff;
-        cursor: pointer;
-        margin: 0px;
-    }
-    form .display{
-        display: flex;
-        justify-content: flex-end;
-        margin: 20px 0;
-      }
-      form .display input{
-          text-align: right;
-          flex: 1;
-          font-size: 40px;
-          box-shadow: none;
-      }
-      .cal input.equal{
-        width: 94px;
-       color: #33ffd8;
-    }
-    }
     @media (max-width: 420px){
         .cal{
-            background-color: rgb(63, 61, 61);
+            background-color: #0c2835;
             padding: 10px;
             border-radius: 10px;
+            box-shadow: 0 0 20px #fff;
         }
         .cal form input{
             border: 0;
@@ -119,11 +83,11 @@ form .display input{
           form .display input{
               text-align: right;
               flex: 1;
-              font-size: 40px;
+              font-size: 33px;
               box-shadow: none;
           }
           .cal input.equal{
-            width: 38px;
+            width: 95px;
            color: #33ffd8;
         }
         }
